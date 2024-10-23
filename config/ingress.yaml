@@ -24,4 +24,4 @@ spec:
   tls:
   - hosts:
     - app.local
-    secretName: argocd-server-tls
+    secretName: testapp-tls
