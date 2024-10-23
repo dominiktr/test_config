@@ -18,7 +18,7 @@ spec:
         app: testapp
     spec:
       containers:
-      - image: domintr/test_image:{.Values.deployment.image.tag}
-        name: test-image-h2mm5
+      - image: domintr/test_image:TAG
+        name: test-image-TAG
         resources: {}
 status: {}
