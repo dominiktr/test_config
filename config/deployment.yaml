@@ -18,7 +18,7 @@ spec:
         app: testapp
     spec:
       containers:
-      - image: domintr/test_image:sha-291a410
-        name: test-image-sha-291a410
+      - image: domintr/test_image:1.0.1
+        name: test-image-1.0.1
         resources: {}
 status: {}
