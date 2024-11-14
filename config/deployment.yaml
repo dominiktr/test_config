@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: testapp
+  name: testapp
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: testapp
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: testapp
+    spec:
+      containers:
+      - image: domintr/test_image:1.0.0
+        name: test-image
+        resources: {}
+status: {}
